@@ -1,12 +1,14 @@
 {
-  "name": "npm-v7",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "src/packages/**"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node -e 'require(\"@lidqqq/pack-a\")'"
   },
-  "keywords": [],
-  "author": "lidqqq <lidqqq.dev@gmail.com> (https://lidqqq.dev/)",
-  "license": "MIT"
+  "dependencies": {
+    "@lidqqq/pack-a": "^1.0.0"
+  },
+  "name": "npm-v7-workspaces"
 }

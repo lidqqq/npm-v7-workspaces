@@ -1,0 +1,12 @@
+{
+  "name": "@lidqqq/pack-b",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {},
+  "keywords": [],
+  "author": "lidqqq <lidqqq.dev@gmail.com> (https://lidqqq.dev/)",
+  "license": "MIT",
+  "dependencies": {
+    "react": "16.13.1"
+  }
+}

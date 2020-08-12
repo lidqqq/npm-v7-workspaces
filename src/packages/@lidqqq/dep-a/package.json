@@ -1,0 +1,16 @@
+{
+  "name": "@lidqqq/pack-a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "keywords": [],
+  "author": "lidqqq <lidqqq.dev@gmail.com> (https://lidqqq.dev/)",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "1.26.10"
+  }
+}
